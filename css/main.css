@@ -1,0 +1,668 @@
+							/*Fonts*/
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Lakki+Reddy';
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+@import 'https://fonts.googleapis.com/css?family=Exo';
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2 {
+  font-family: 'Exo', sans-serif;
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                  default.html
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+            /*Navigation*/
+
+
+
+.navbar-inverse {
+  font-size: 1.5em;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.navbar-brand.name {
+	font-family: 'Exo', sans-serif;
+	font-size: 1.5em;
+}
+
+.nav {
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>li>a.current {
+  color: #fff;
+}
+
+/*Footer*/
+
+
+footer {
+	margin-top: 20px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #cecece;
+}
+
+
+/*copyright*/
+
+.copyright{
+  padding-top: 20px;
+}
+
+.copyright a {
+  color: #000;
+}
+
+.copyright a:hover {
+  text-decoration: none;
+  color: #776e6e;
+}
+
+.copyright span {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Navigarion*/
+
+
+#footer-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer-nav li a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  left: 5%;
+  text-align: left;
+  display: inline-block;
+  color: #776e6e;
+  padding: 40px 10px;
+  width: auto;
+  position: relative;
+  float: left;
+}
+
+
+#footer-nav li a:hover {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+}
+
+/*social icon*/
+
+#footer-social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer-social li a {
+  font-size: 1.5em;
+  left: 10%;
+  color: #776e6e;
+  display: inline-block;
+  padding: 40px 20px;
+  width: auto;
+  position: relative;
+  float: left;
+}
+
+
+#footer-social li a:hover {
+  text-decoration: none;
+}
+
+#footer-social li a.facebook:hover{
+  color: #3b5998;
+}
+#footer-social li a.github:hover{
+  color: #4078c0;
+}
+#footer-social li a.twitter:hover{
+  color: #00aced;
+}
+#footer-social li a.codepen:hover{
+  color: #000000;
+}
+#footer-social li a.linkedin:hover{
+  color: #0077b5;
+}
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                  index.html
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+                /*Index page Intro and Photo section*/
+
+.introduction {
+  padding: 100px;
+  font-size: 1.2em;
+}
+
+
+#intro {
+  padding-top: 40px;
+}
+#intro h1 {
+  font-family: 'Exo', sans-serif;
+  font-weight: 700;
+}
+
+#intro>p:first-of-type {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+#intro-photo {
+  margin-top: 40px;
+  height: 400px;
+  background: url(../tanim.png) no-repeat;
+  background-size: contain;
+}
+
+
+            /*Intro Button and Social Icon*/
+
+
+#social a {
+  font-size: 2em;
+  left: 10%;
+  display: inline-block;
+  padding: 40px 20px;
+  width: auto;
+  position: relative;
+  float: left;
+  text-decoration: none;
+}
+
+#social a.facebook{
+  color: #3b5998;
+}
+
+#social a.facebook > .fa + .fa,
+#social a.facebook:hover > .fa {
+  display: none;
+  color: #3b5998;
+}
+#social a.facebook:hover > .fa + .fa {
+  display: inherit;
+
+}
+
+#social a.github{
+  color: #4078c0;
+}
+
+#social a.github > .fa + .fa,
+#social a.github:hover > .fa {
+  display: none;
+  color: #000000;
+}
+#social a.github:hover > .fa + .fa {
+  display: inherit;
+
+}
+
+
+#social a.twitter{
+  color: #00aced;
+}
+
+#social a.twitter > .fa + .fa,
+#social a.twitter:hover > .fa {
+  display: none;
+  color: #00aced;
+}
+#social a.twitter:hover > .fa + .fa {
+  display: inherit;
+
+}
+
+#social a.codepen{
+  color: #00aced;
+}
+
+#social a.codepen > .fa + .fa,
+#social a.codepen:hover > .fa {
+  display: none;
+  color: #000000;
+}
+#social a.codepen:hover > .fa + .fa {
+  display: inherit;
+
+}
+
+#social a.linkedin{
+  color: #0077b5;
+}
+
+#social a.linkedin > .fa + .fa,
+#social a.linkedin:hover > .fa {
+  display: none;
+  color: #00aced;
+}
+#social a.linkedin:hover > .fa + .fa {
+  display: inherit;
+
+}
+
+
+            /*Portfolio Home Page*/
+
+#latest-work {
+  padding-bottom: 40px;
+}
+
+#latest-work img {
+  margin-bottom: 40px;
+}
+
+#latest-work h1 {
+  font-weight: 200;
+  padding-bottom: 100px;
+}
+
+.details {
+  font-size: 1.2em;
+  background-color: rgba(0,0,0,.8);
+}
+
+#view-more a{
+  font-size: 1.2em;
+  font-weight: 700;
+  top: 20px;
+  position: relative;
+  left: 70%;
+}
+#view-more a:hover {
+  text-decoration: none;
+}
+
+
+
+              /*Media Queries*/
+
+@media (max-width: 1000px) {
+   /*Index page Intro and Photo section*/
+
+
+  .introduction {
+    padding: 50px;
+    font-size: 1.2em;
+  }
+
+}
+
+@media (max-width: 980px) {
+   /*footer navigation*/
+
+   .footer-nav {
+    height: 50px;
+   }
+  #footer-nav li a{
+    top: 10%;
+    left: 25%;
+
+  }
+
+  #footer-social li a{
+    left: 20%;
+  }
+
+}
+@media (max-width: 752px) {
+  body {
+    font-size: 11px;
+  }
+  /*Index page Intro and Photo section*/
+
+  .introduction {
+    padding: 25px 10px;
+  }
+
+  #intro-photo {
+    margin-top: 40px;
+    height: 200px;
+  }
+
+  /*Navigation*/
+
+  .nav li {
+    border-bottom: .5px solid #111111;
+  }
+  .nav li a{
+    padding-left: 40%;
+  }
+  .navbar-inverse {
+    padding-bottom: 0px;
+  }
+  #footer-social,
+  #footer-nav {
+    display: none;
+  }
+
+ }
+
+/*Edited final navigation for mobile */
+@media (max-width: 480px) {
+
+     /*Portfolio - Home Page*/
+	.navbar-brand.name {
+		font-size: 2em;
+	}
+
+	.navbar-inverse .navbar-collapse {
+		min-height: 100vh;
+	}
+
+	.navbar-inverse .navbar-nav>li:last-child {
+		border-bottom: none;
+	}
+
+	.navbar-inverse .navbar-nav>li>a {
+		padding: 40px 0px;
+    color: #9d9d9d;
+    font-size: 30px;
+    width: 30%;
+    margin: auto;
+	}
+  #latest-work h1 {
+    font-size: 2em;
+    padding-bottom: 20px;
+  }
+
+  #view-more a{
+  left: 40%;
+}
+
+
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                  portfolio.html
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#heading {
+  padding: 40px;
+  font-weight: bold;
+}
+
+#project img {
+  margin-bottom: 40px;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                  contact.html
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+                                                /*contact form*/
+
+#contact-heading {
+  padding: 40px;
+  font-weight: bold;
+}
+
+#contact-form {
+  margin: 20px;
+  border-right: 1px dotted #cfcfcf;
+  height: auto;
+}
+
+
+label,
+input,
+textarea,
+.g-captcha {
+  margin: 10px 0;
+}
+
+
+label {
+  font-size: 1.2em;
+}
+
+#success_message {
+  display: block;
+}
+
+.btn-contact {
+  margin-bottom: 20px;
+}
+
+                                                /*contact social*/
+
+#contact-social li a{
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+}
+
+#contact-social li a:hover{
+  color: #776e6e;
+}
+
+#contact-social span {
+  font-size: 2em;
+  margin-right: 10px;
+}
+
+#contact-social span.facebook{
+  color: #3b5998;
+}
+#contact-social span.github{
+  color: #4078c0;
+}
+#contact-social span.twitter{
+  color: #00aced;
+}
+#contact-social span.codepen{
+  color: #00aced;
+}
+#contact-social span.linkedin{
+  color: #0077b5;
+}
+
+@media (max-width: 980px) {
+  #contactForm {
+  border-right: none;
+}
+
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                  thank-you.html
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#thank-you-icon {
+  position: relative;
+  left: 47%;
+  padding-top: 40px;
+  font-size: 5em;
+  color: green;
+}
+
+#thank-you .btn {
+  background-color: #111111;
+  color: #fff;
+  position: relative;
+  left: 47%;
+}
+
+#thank-you {
+  margin-top: 200px;
+  margin-bottom: 250px;
+}
+
+#thank-you a{
+  text-decoration: none;s
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                  resume.html
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+                                       /* ---------------------------------
+                                                        Resume
+                                        ---------------------------------*/
+
+
+
+                                            /*contact-details*/
+
+.resume {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.contact-details {
+	background-color: #f5f5f5;
+  background-size: cover;
+	order: 1;
+}
+
+.contact-details h1 {
+	font-size: 5em;
+	padding-top: 10%;
+}
+
+.contact-details h2 {
+	font-size: 2.5em;
+	margin-bottom: 50px;
+}
+.download {
+	display: none;
+}
+
+.contact-details ul {
+	margin: 5vw;
+	padding-bottom: 20px;
+}
+
+.contact-details ul li {
+	font-size: 2em;
+}
+
+.contact-details ul li span i{
+	  padding: 10px;
+}
+
+.contact-details ul li a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.contact-details ul li a:hover {
+  text-decoration: none;
+}
+
+                                              /*main*/
+
+.profile-details {
+	margin: 5vw;
+	order: 2;
+}
+.resume p {
+	font-size: 20px;
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+.profile p {
+	text-indent: 30px;
+}
+
+button.accordion {
+	font-size: 20px;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+	border-bottom: 1px solid #000;
+}
+
+.accordion .icon {
+	position: absolute;;
+	right: 10%;
+}
+
+button.accordion.active, button.accordion:hover {
+  background-color: #ddd;
+}
+
+.content {
+  padding: 18px;
+  background-color: white;
+	border-bottom: 1px solid #000;
+  display: none;
+}
+
+.content li {
+	font-size: 20px;
+}
+
+.content span {
+	font-size: 20px;
+	color : #878484;
+}
+
+.content h1{
+	font-size: 26px;
+	line-height: 30px;
+}
+
+.content h2 {
+	font-size: 22px;
+	line-height: 30px;
+}
+
+.content.show {
+  display: block;
+}
+main h1, main h2, main h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+                                      /* ---------------------------------
+                                                        Resume-small
+                                        ---------------------------------*/
