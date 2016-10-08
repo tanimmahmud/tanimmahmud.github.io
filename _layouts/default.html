@@ -5,19 +5,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="This is the portfolio website of Tanim Mahmud">
-
-<!-- Bootstrap Css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<!-- Uikit Css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/css/uikit.min.css">
-
+<!-- normalize -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+<!-- fonts -->
+		<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Open+Sans'>
+		<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Lakki+Reddy'>
+		<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto'>
+		<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Exo'>
 <!-- font-awesome Css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-<!-- JQuery ui -->
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 <!-- Custom Css -->
-    <link rel="stylesheet" type="text/css" media=all href="css/mobile_first.css">
+		<!-- default page navigation-->
+		<link rel="stylesheet" href="css/navigation.css">
+		<!-- default page footer -->
+		<link rel="stylesheet" href="css/footer.css">
+		<!-- home page -->
+		<link rel="stylesheet" href="css/home.css">
+		<!-- resume page -->
+    <link rel="stylesheet" type="text/css" href="css/resume.css">
 
 
 
@@ -25,26 +30,18 @@
 <body>
 
 <!--Default Navigation -->
-<header data-uk-scrollspy="{cls:'uk-animation-slide-top', repeat: false}">
+<header>
   {% include nav.html %}
 </header>
-
-<!-- page content -->
-{{content}}
-
+<main>
+	<!-- page content -->
+	{{content}}
+</main>
 <!-- Default Footer -->
-<footer data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: false}">
+<footer>
   {% include footer.html %}
 </footer>
-<!-- Jquery -->
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<!-- JQuery ui -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-<!-- Bootstrap Js -->
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<!-- Uikit Js -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/js/uikit.min.js"></script>
 <script type="text/javascript" src="script/main.js"></script>
 
 </body>
