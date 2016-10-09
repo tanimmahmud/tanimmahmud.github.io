@@ -64,19 +64,56 @@ button.view-resume {
     margin-left: auto;
     margin-right: auto;
   }
+}
 
+@media screen and (min-width: 780px) {
+
+  main {
+    width: 80%;
+  }
+  .introduction {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: stretch;
+  }
+  .introduction-body {
+    min-width: 60%;
+    margin-right: 20px;
+  }
+  #profile-photo {
+    margin-top: 80px;
+    min-width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+  }
   #social {
+    display: block;
+  }
+
+  #social ul {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    justify-content: flex-start;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 0;
   }
 
+  #social li {
+    margin: 5px 60px;
+    padding: 0;
+
+  }
   #social a {
-    margin: 50px 20px;
+    text-decoration: none;
+    font-size: 1.5em;
   }
 
   #social a.facebook{
@@ -133,7 +170,6 @@ button.view-resume {
   }
   #social a.codepen:hover > .fa + .fa {
     display: inherit;
-
   }
 
   #social a.linkedin{
@@ -147,6 +183,15 @@ button.view-resume {
   }
   #social a.linkedin:hover > .fa + .fa {
     display: inherit;
-
   }
+
+  #latest-work {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
 }
