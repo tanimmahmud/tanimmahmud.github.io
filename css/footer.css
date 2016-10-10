@@ -39,24 +39,27 @@ footer a {
 }
 
 #footer-nav {
-  display: none;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#footer-nav {
+  margin: 20px 0;
+  padding: 0;
+}
+
+#footer-nav a {
+  margin: 20px 10px;
 }
 
 @media screen and (min-width: 780px)  {
-
-  #footer-nav {
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    justify-content: center;
-  }
-
   #footer-nav li {
     margin: 0 30px;
   }
-
 
 }

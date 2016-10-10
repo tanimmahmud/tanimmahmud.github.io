@@ -1,48 +1,43 @@
 <!doctype html>
 <html lang="en">
-<head>
-	<title> Tanim Mahmud</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="This is the portfolio website of Tanim Mahmud">
-<!-- normalize -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
-<!-- fonts -->
-		<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Open+Sans'>
-		<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Lakki+Reddy'>
-		<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto'>
-		<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Exo'>
-<!-- font-awesome Css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-<!-- Custom Css -->
-		<!-- default page navigation-->
-		<link rel="stylesheet" href="css/navigation.css">
-		<!-- default page footer -->
-		<link rel="stylesheet" href="css/footer.css">
-		<!-- home page -->
-		<link rel="stylesheet" href="css/home.css">
-		<!-- resume page -->
-    <link rel="stylesheet" type="text/css" href="css/resume.css">
+	<head>
+		<title> Tanim Mahmud</title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="This is the portfolio website of Tanim Mahmud">
+	<!-- normalize -->
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+	<!-- fonts -->
+			<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Open+Sans'>
+			<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto'>
+			<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Exo'>
+	<!-- font-awesome Css -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<!-- Custom Css -->
+			<!-- default page navigation-->
+			<link rel="stylesheet" href="css/navigation.css">
+			<!-- default page footer -->
+			<link rel="stylesheet" href="css/footer.css">
+			<!-- home page -->
+			<link rel="stylesheet" href="css/home.css">
+			<!-- resume page -->
+	    <link rel="stylesheet" type="text/css" href="css/resume.css">
+	</head>
+	<body>
+	<!--Default Navigation -->
+	<header>
+	  {% include nav.html %}
+	</header>
+	<main>
+		<!-- page content -->
+		{{content}}
+	</main>
+	<!-- Default Footer -->
+	<footer>
+	  {% include footer.html %}
+	</footer>
 
+	<script type="text/javascript" src="script/main.js"></script>
 
-
-</head>
-<body>
-
-<!--Default Navigation -->
-<header>
-  {% include nav.html %}
-</header>
-<main>
-	<!-- page content -->
-	{{content}}
-</main>
-<!-- Default Footer -->
-<footer>
-  {% include footer.html %}
-</footer>
-
-<script type="text/javascript" src="script/main.js"></script>
-
-</body>
+	</body>
 </html>
