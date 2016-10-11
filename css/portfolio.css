@@ -1,0 +1,71 @@
+#project {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 1024px;
+}
+.portfolio_heading {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 20px;
+  padding: 20px;
+  color: #666;
+}
+.portfolio_figure h1 {
+  visibility: hidden;
+}
+.portfolio_figure {
+  background: url(../images/portfolio/selfiebd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 16vw;
+  border-radius: 10px;
+}
+
+figure {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption p {
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #999;
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+figcaption a {
+  text-decoration: none;
+  color: #000;
+}
+
+.arrow {
+  font-size: 1.5em;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  #project {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  figure {
+    width: 25vw;
+    margin: 5px;
+  }
+}

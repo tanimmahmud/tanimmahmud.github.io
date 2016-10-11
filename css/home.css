@@ -6,6 +6,12 @@
   -ms-flex-direction: column;
   flex-direction: column;
 }
+
+.introduction-body p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 button.view-resume {
   background-color: #337ab7;
   border-color: #2e6da4;
@@ -91,16 +97,16 @@ button.view-resume {
     -ms-flex-direction: row;
     flex-direction: row;
     list-style: none;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 5px;
+    margin: 0;
     padding: 0;
     border: 1px solid #fff;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   }
 
   #social li {
-    margin: 5px 60px;
+    margin: 5px 30px;
     padding: 0;
 
   }
@@ -195,6 +201,7 @@ button.view-resume {
     color: #666;
   }
 
+  #project,
   .latest-projects {
     display: -webkit-flex;
     display: -ms-flex;
@@ -205,16 +212,7 @@ button.view-resume {
     max-width: 1024px;
   }
 
-  figure {
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid #fff;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-    width: 25vw;
-  }
-
+  .portfolio_figure,
   .figure-body {
     background: url(../images/portfolio/selfiebd.jpg);
     background-size: contain;
@@ -225,21 +223,7 @@ button.view-resume {
   }
 
   .figure-body h1 {
-    display: none;
-  }
-
-  figcaption p {
-    margin: 0;
-    font-family: sans-serif;
-    font-weight: 100;
-    color: #999;
-    line-height: 1.5em;
-    font-size: 1em;
-  }
-
-  figcaption a {
-    text-decoration: none;
-    color: #000;
+    visibility: hidden;
   }
 
   #view-more p{
@@ -253,4 +237,10 @@ button.view-resume {
     cursor: pointer;
   }
 
+
+@media screen and (min-width: 1400px) {
+  .figure-body {
+    min-width: 100%;
+    min-height: 13vw;
+  }
 }

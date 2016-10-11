@@ -3,15 +3,9 @@ layout: default
 ---
 
 <!-- Contact page -->
-<div class="container">
-	<h1 id= "contact-heading" data-uk-scrollspy="{cls:'uk-animation-slide-top'}">Get in touch</h1>
-	<div class="row">
-		<div class="col-md-8" data-uk-scrollspy="{cls:'uk-animation-slide-left'}">
-			{% include contact-form.html %}
-		</div>
-		<div class="col-md-4" data-uk-scrollspy="{cls:'uk-animation-slide-right' , delay:800}">
-			<h2>Social Media</h2>
-			{% include contact-social.html %}
-		</div>
-	</div>
-</div> <!-- End contact page -->
+<div id="contact">
+				{% include contact-form.html %}
+				{% include contact-social.html %}
+</div>
+
+<!-- End contact page -->

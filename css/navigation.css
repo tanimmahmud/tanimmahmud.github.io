@@ -21,6 +21,7 @@ main {
   -ms-flex-direction: column;
   flex-direction: column;
 	max-width: 1024px;
+	min-height: 780px;
 	margin-left: auto;
 	margin-right: auto;
 	margin: 25px;
