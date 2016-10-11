@@ -9,6 +9,11 @@ body {
 h1,h2 {
   font-family: 'Exo', sans-serif;
 }
+
+a {
+	text-decoration: none;
+	color: #000;
+}
 header {
 	background-color: #111;
 }
@@ -125,6 +130,10 @@ nav .brand h1{
 		justify-content: space-between;
 }
 
+.introduction-body h1 {
+	letter-spacing: 2px;
+}
+
 /*Media Query*/
 
 @media screen and (min-width: 780px) {
@@ -155,6 +164,7 @@ nav .brand h1{
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		list-style: none;
 	}
 
 	#nav li {

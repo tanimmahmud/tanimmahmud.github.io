@@ -1,0 +1,172 @@
+.resume {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.contact_details {
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.headshot p {
+  visibility: hidden;
+}
+
+.contact_details h1,
+.contact_details h2 {
+  font-weight: lighter;
+  margin: 0;
+}
+
+.contact_details ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.contact_details ul li {
+  margin: 10px;
+}
+
+.profile_heading {
+  visibility: hidden;
+}
+
+.profile {
+  text-indent: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px 0 18px 5px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.accordion .icon {
+  position: absolute;
+  right: 15%;
+  padding: 10px;
+}
+
+.accordion.active, .accordion:hover {
+    background-color: #ddd;
+}
+
+.content {
+    padding:18px;
+    background-color: white;
+    display: none;
+}
+
+.content:last-child {
+  border-bottom: 1px solid #000;
+}
+
+.content.showResume {
+    display: block;
+}
+
+.accordion {
+  border-bottom: 1px solid #000;
+}
+
+.profile_details h1,
+.profile_details h2,
+.profile_details p {
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+.profile_details h1 {
+  margin-top: 20px;
+}
+.profile_details span {
+  color: #828282;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 780px) {
+
+  .resume {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    font-size: 1em;
+  }
+
+  .contact_details {
+    position: fixed;
+    width: 30%;
+    font-size: .8em;
+    top: 150px;
+    margin-bottom: 200px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile_details {
+    margin-left: 40%;
+  }
+
+  .headshot {
+    background-image: url(/tanim.jpg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #828282;
+    margin-bottom: 20px;
+  }
+
+  .profile_heading {
+    visibility: visible;
+  }
+
+  .profile_heading,
+  .accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: none;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border-bottom : 1px dotted #000;
+    outline: none;
+    transition: 0s;
+    margin: 0;
+  }
+
+  .accordion .icon {
+    display: none;
+  }
+
+  .accordion.active, .accordion:hover {
+      background-color: #fff;
+  }
+
+  .content {
+    display: block;
+  }
+
+  .content.showResume {
+      display: none;
+  }
+}
