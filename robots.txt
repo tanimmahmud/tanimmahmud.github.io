@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://tanimmahmud.github.io/sitemap.xml
