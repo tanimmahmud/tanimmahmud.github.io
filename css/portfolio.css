@@ -14,13 +14,8 @@
   padding: 20px;
   color: #666;
 }
-.portfolio_figure h1 {
-  visibility: hidden;
-}
+
 .portfolio_figure {
-  background: url(../images/portfolio/selfiebd.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   min-width: 100%;
   min-height: 16vw;
   border-radius: 10px;
@@ -62,6 +57,12 @@ figcaption a {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
+  }
+
+  .portfolio_figure {
+    max-width: 100%;
+    min-height: 16vw;
+    border-radius: 10px;
   }
 
   figure {

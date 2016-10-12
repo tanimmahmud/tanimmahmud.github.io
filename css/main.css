@@ -502,6 +502,7 @@ button.view-resume {
     cursor: pointer;
   }
 
+}
 
 @media screen and (min-width: 1400px) {
   .figure-body {
@@ -532,12 +533,12 @@ button.view-resume {
   visibility: hidden;
 }
 .portfolio_figure {
-  background: url(../images/portfolio/selfiebd.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-width: 100%;
-  min-height: 16vw;
-  border-radius: 10px;
+	width: 100%;
+
+}
+
+#project img {
+	border-radius: 10px ;
 }
 
 figure {
@@ -577,6 +578,10 @@ figcaption a {
     -ms-flex-direction: row;
     flex-direction: row;
   }
+
+	.portfolio_figure {
+		width: 50%;
+	}
 
   figure {
     width: 25vw;
