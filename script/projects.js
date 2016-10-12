@@ -5,7 +5,8 @@ var projects = [
     url_title: "Selfie BD",
     url: "selfiebd.com",
     type: "Website Design",
-    type_link: "https://github.com/tanimmahmud/selfie"
+    type_link: "https://github.com/tanimmahmud/selfie",
+    tools: "HTML, CSS, Bootstrap"
   },
   {
     alt: "website",
@@ -13,7 +14,8 @@ var projects = [
     url_title: "Selfie BD",
     url: "selfiebd.com",
     type: "Website Design",
-    type_link: "https://github.com/tanimmahmud/selfie"
+    type_link: "https://github.com/tanimmahmud/selfie",
+    tools: "HTML, CSS, Bootstrap"
   },
   {
     alt: "website",
@@ -21,7 +23,8 @@ var projects = [
     url_title: "Selfie BD",
     url: "selfiebd.com",
     type: "Website Design",
-    type_link: "https://github.com/tanimmahmud/selfie"
+    type_link: "https://github.com/tanimmahmud/selfie",
+    tools: "HTML, CSS, Bootstrap"
   }
 ];
 
@@ -34,6 +37,7 @@ for (var i = 0 ; i < projects.length ; i++) {
   html += '<figcaption>';
   html += '<a target="_blank" href=' +projects[i].url+ ' ><p><strong>' + projects[i].url_title + '</strong> </p></a>';
   html += '<a target="_blank" href=' +projects[i].type_link + ' ><p><em>' + projects[i].type + '</em><span><i class="fa fa-angle-double-right pull-right" aria-hidden="true"></i></span></p></a>';
+  html += '<p>' +projects[i].tools + "</p>";
   html += '</figure>';
 };
 

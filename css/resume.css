@@ -36,14 +36,14 @@
 }
 
 .profile {
-  text-indent: 20px;
+  text-indent: 0;
   text-align: justify;
   text-justify: inter-word;
 }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #f5f5f5;
+  color: #888;
   cursor: pointer;
   padding: 18px 0 18px 5px;
   width: 100%;
@@ -67,7 +67,7 @@
 
 .content {
     padding:18px;
-    background-color: white;
+    background-color: #fff;
     display: none;
 }
 
@@ -94,7 +94,7 @@
   margin-top: 20px;
 }
 .profile_details span {
-  color: #828282;
+  color: #888;
   margin-bottom: 30px;
 }
 
@@ -132,7 +132,7 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #828282;
+    border: 5px solid #888;
     margin-bottom: 20px;
   }
 

@@ -7,14 +7,14 @@
   flex-direction: column;
 }
 
-.introduction-body p,
-.introduction-body h1 {
+.introduction_body p,
+.introduction_body h1 {
   text-align: center;
 }
 
-button.view-resume {
-  position: relative;
-  left: 40%;
+button.home_button,
+button.resume_download,
+button.view_resume {
   background-color: #337ab7;
   border-color: #2e6da4;
   color: #fff;
@@ -33,7 +33,12 @@ button.view-resume {
   align-items: center;
 }
 
-#profile-photo {
+button.view_resume {
+  position: relative;
+  left: 40%;
+}
+
+#profile_photo {
   margin-top: 20px;
   min-width: 80vw;
   margin-left: auto;
@@ -54,7 +59,7 @@ button.view-resume {
 }
 
 @media screen and (min-width: 425px) {
-  #profile-photo {
+  #profile_photo {
     order: 0;
   }
 
@@ -77,12 +82,12 @@ button.view-resume {
     justify-content:space-between;
     align-items: stretch;
   }
-  .introduction-body {
+  .introduction_body {
     min-width: 60%;
     margin-right: 20px;
     margin-bottom: 20px;
   }
-  #profile-photo {
+  #profile_photo {
     margin-top: 80px;
     min-width: 40%;
     margin-right: auto;
@@ -148,7 +153,7 @@ button.view-resume {
     font-size: 1.2em;
     margin-top: 20px;
     padding: 20px;
-    color: #666;
+    color: #888;
   }
 
   #project,
@@ -163,7 +168,7 @@ button.view-resume {
   }
 
   .portfolio_figure,
-  .figure-body {
+  .figure_body {
     background: url(../images/portfolio/selfiebd.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -172,7 +177,7 @@ button.view-resume {
     border-radius: 10px;
   }
 
-  .figure-body h1 {
+  .figure_body h1 {
     visibility: hidden;
   }
 
@@ -183,13 +188,13 @@ button.view-resume {
 
   #view-more a {
     text-decoration: none;
-    color: #999;
+    color: #888;
     cursor: pointer;
   }
 
 
 @media screen and (min-width: 1400px) {
-  .figure-body {
+  .figure_body {
     min-width: 100%;
     min-height: 13vw;
   }
