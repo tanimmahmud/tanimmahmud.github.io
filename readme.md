@@ -189,11 +189,13 @@ I wrote my CSS mobile-first. I have few media queries to oriented different sect
 
 ### Images & Icons
 
-My images are very low size for optimization reason. I All my images are in jpg formet as the . Their file sizes were small, just a few 10s of KB.
+My images are very low size for optimization reason. I All my images are in jpg formet as their file sizes were small.
 
-The icons on my About page are the logos of the various services I have accounts with. I use [Font Awesome](http://fontawesome.io/), as they have good catalog of logos. I sized the logos to 200% size, using `font-size: 200%` in CSS.
+ I use [Font Awesome](http://fontawesome.io/), as they have good catalog of logos.
 
 ## Performance
+
+load time result using google chrome developer tools.
 
 ### Network
 
