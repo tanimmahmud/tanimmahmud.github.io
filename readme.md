@@ -1,51 +1,42 @@
 # Portfolio Site of Tanim Mahmud
 
-# Design Documentation
+## Aim
 
-## Site's audience.
+My aim was to develop a clean accessible website for prospective employers and fellow developers. I used bigger font size and black and white color combinations for accessible reasons. I tried to create a simple website with no fancy animation or parallax because it suits me better. I decided to go with different html and css file for each page because it is easy to debug and as I used Jekyll, it helped me organize my files and folders.
 
-  My targeted visitors will be my prospective employers and fellow developers.
+### Home
 
-## Design decisions
+Home page has all basic information about me, some of my recent projects and all links to find my details . For time-poor employers, home page will be enough to learn about me.
 
-  The website has 5 pages - home, resume, portfolio, blog and contact page. Home page has all basic information about me and all links to find my details . For busy employers home page will be enough to learn about me. I created other pages to show more details about my projects and resume. I also made a contact page to make it easy to contact me. In my resume page I also have download resume option so that prospective employers can download my resume for internal use.
-  Navigation tabs are available in the footer so that visitors can easily navigate through the pages. I made all the links available using keyboard for make it more accessible. I chose black and white theme to fit with my personality. I used color combinations considering color blind people.  
+### Resume
 
-## Usability heuristics
+Resume Page has all of my contact details , education, skills and experiences details. I also have download resume option so that prospective employers can download my resume for official use.
 
-  * I only provided relevant informations.
-  * Informed visitors which page they are visiting by highlighting navigation menu.
-  * I was very careful about my writing to make it understandable for all visitors.
-  * All of the pages followed same design and color combinations. Navigations are in the same place. Headers are always in same fonts and text are same fronts and size.
-  * I made navigations and social links in the footer so that visitors do not have to scroll page to find useful informations.
-  * I used comparatively bigger font size and design to make it more usable and less stress for low vision people.
+### Portfolio
 
-## Assets
+If visitors want to see more of my projects then they can visit portfolio page. I put all of my projects here with live link, information about what tools I used and a link to github repository if they are interested to see the codes. I have used JavaScript to print projects in the page because it will be easy to add projects in the future.
 
-### HTML
-- [Navigation HTML](_includes/nav.html)
-- [Footer HTML](_includes/footer.html)
-- [Home HTML](_includes/intro.html)
-- [Portfolio HTML](/portfolio/index.html)
-- [Resume HTML](_includes/resume.html)
-- [Contacts HTML](_includes/contact-form.html)
+### Blog
 
-### CSS
-- [Navigation Bar CSS](/css/navigation.css)
-- [Footer CSS](/css/footer.css)
-- [Home CSS](/css/home.css)
-- [Portfolio CSS](/css/portfolio.css)
-- [Resume CSS](/css/resume.css)
-- [Contacts CSS](/css/contacts.css)
+Blog page has nothing in it right now but I am planing to write blogs and upload them in this page.
 
-## Script
-- [Main JS](/script/main.js)
-- [Projects JS](/script/projects.js)
+### Contact
 
-## Live
+Contact page has a contact form to make it easy for visitors to contact me without opening any webpage or apps. It also has social media link if they are interested to check them.
 
-https://tanimmahmud.github.io/
+In every page navigation tabs are available in the footer so that visitors can easily navigate through the pages. links are at least 16px x 16px for making tapping easy in touch and small devices.  I also made all the links available using keyboard for make it more accessible. I used color combinations considering color blind people.
 
+## Usability heuristics checklist
+
+  * Only relevant informations was provided.
+  * Has enough navigation options to jump through pages.
+  * Choice of words was not too technical.
+  * Design, navigations, font sizes and color combinations were consistent across the pages.
+  * Useful informations are less than 3 clicks away.
+  * Page height is not long to preventing more scrolling.
+  * Bigger font size and design was used to make it more accessible and less stress for low vision people.
+
+# Design
 
 ## Wireframes
 
@@ -132,6 +123,8 @@ Exo should be used for all header and sub header text, where Open Sans should be
 
 #### Icons
 
+Font Awesome icon was used.
+
 ![alt text](/images/markdown_images/social_icon_footer.jpg "resume page paragraph")
 
 - LinkedIn
@@ -177,3 +170,59 @@ Desktop view
 ___
 
 ![alt text](/images/markdown_images/dextop.jpg "resume page paragraph")
+
+## Building
+
+I tried to go as minimal as possible with HTML , CSS and JavaScript.
+
+### HTML
+
+I built my website in HTML5, to make it more semantic I tried using less `<div> `and replace them with `<header>`,`<footer>` and `<main>`.
+
+### Meta tags
+
+I add `description` and `author` meta tags to my primary pages.
+
+### CSS
+
+I wrote my CSS mobile-first. I have few media queries to oriented different sections in desktop version differently.
+
+### Images & Icons
+
+My images are very low size for optimization reason. I All my images are in jpg formet as the . Their file sizes were small, just a few 10s of KB.
+
+The icons on my About page are the logos of the various services I have accounts with. I use [Font Awesome](http://fontawesome.io/), as they have good catalog of logos. I sized the logos to 200% size, using `font-size: 200%` in CSS.
+
+
+## Assets Links
+
+### HTML
+- [Navigation HTML](_includes/nav.html)
+- [Footer HTML](_includes/footer.html)
+- [Home HTML](_includes/intro.html)
+- [Portfolio HTML](/portfolio/index.html)
+- [Resume HTML](_includes/resume.html)
+- [Contacts HTML](_includes/contact-form.html)
+
+### CSS
+- [Navigation Bar CSS](/css/navigation.css)
+- [Footer CSS](/css/footer.css)
+- [Home CSS](/css/home.css)
+- [Portfolio CSS](/css/portfolio.css)
+- [Resume CSS](/css/resume.css)
+- [Contacts CSS](/css/contacts.css)
+
+## Script
+- [Main JS](/script/main.js)
+- [Projects JS](/script/projects.js)
+
+## Fonts
+- [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- [Exo](/script/main.js)
+
+## Icons
+- [Font Awesome](http://fontawesome.io/)
+
+## Live
+
+https://tanimmahmud.github.io/
