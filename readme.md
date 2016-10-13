@@ -44,7 +44,7 @@ In every page navigation tabs are available in the footer so that visitors can e
 
   I scratch my initial design in a paper.
 
-  ![alt text](/images/markdown_images/wireframe.jpg "hand scratch image")  
+  ![hand scratch image](/images/markdown_images/wireframe.jpg)  
 
 ## Style guide
 
@@ -52,7 +52,7 @@ In every page navigation tabs are available in the footer so that visitors can e
 
 The websites logo should be used at all times left corner of the site.
 
-![alt text](/images/markdown_images/logo.jpg "website logo")
+![website logo](/images/markdown_images/logo.jpg)
 
 #### Spacing and Sizes
 
@@ -69,7 +69,7 @@ There is no preset maximum size for the  logo. However, minimum sizes font size 
 
 The Primary Palette should be used in all occasions specially in navigation and text color.
 
-![alt text](/images/markdown_images/primary_color.jpg "Primary colors")
+![Primary colors](/images/markdown_images/primary_color.jpg)
 
 #### Secondary Colors
 
@@ -77,13 +77,13 @@ The Primary Palette should be used in all occasions specially in navigation and 
 
 Colors for different type of buttons used in the website
 
-![alt text](/images/markdown_images/buttons.jpg "button colors")
+![button colors](/images/markdown_images/buttons.jpg)
 
 ##### Social Icon
 
 Colors used to highlight different social icon used in the site
 
-![alt text](/images/markdown_images/social_colors.jpg "social icon colors")
+![social icon colors](/images/markdown_images/social_colors.jpg)
 
 #### Color Usage
 
@@ -101,31 +101,31 @@ Exo should be used for all header and sub header text, where Open Sans should be
 
 ##### Exo
 
-![alt text](/images/markdown_images/exo.jpg "exo font")
+![exo font](/images/markdown_images/exo.jpg)
 
 ##### Open Sans
 
-![alt text](/images/markdown_images/open_sans.jpg "open sans font")
+![open sans font](/images/markdown_images/open_sans.jpg)
 
 #### Web Styles
 
 ##### Heading Styles
 
-![alt text](/images/markdown_images/home_page_heading.jpg "home page heading")
+![home page heading](/images/markdown_images/home_page_heading.jpg)
 
-![alt text](/images/markdown_images/resume_page_heading.jpg "resume page heading")
+![resume page heading](/images/markdown_images/resume_page_heading.jpg)
 
 ##### Paragraph Styles
 
-![alt text](/images/markdown_images/home_page_paragraph.jpg "home page paragraph")
+![home page paragraph](/images/markdown_images/home_page_paragraph.jpg)
 
-![alt text](/images/markdown_images/resume_page_paragraph.jpg "resume page paragraph")
+![resume page paragraph](/images/markdown_images/resume_page_paragraph.jpg)
 
 #### Icons
 
 Font Awesome icon was used.
 
-![alt text](/images/markdown_images/social_icon_footer.jpg "resume page paragraph")
+![resume page paragraph](/images/markdown_images/social_icon_footer.jpg)
 
 - LinkedIn
 - GitHub
@@ -141,35 +141,35 @@ ___
 Portrait view in Mobile devices
 ___
 
-![alt text](/images/markdown_images/iphone_se.jpg "resume page paragraph")
+![resume page paragraph](/images/markdown_images/iphone_se.jpg)
 
 ___
 
 Top Navigation Bar
 ___
 
-![alt text](/images/markdown_images/breadcrum_dropdown.jpg "resume page paragraph")
+![resume page paragraph](/images/markdown_images/breadcrum_dropdown.jpg)
 
 ___
 
 Landscape view in Mobile devices
 ___
 
-![alt text](/images/markdown_images/iphone_landscape.jpg "resume page paragraph")
+![resume page paragraph](/images/markdown_images/iphone_landscape.jpg)
 
 ___
 
 Tablet devices  
 ___
 
-![alt text](/images/markdown_images/ipad.jpg "resume page paragraph")
+![resume page paragraph](/images/markdown_images/ipad.jpg )
 
 ___
 
 Desktop view
 ___
 
-![alt text](/images/markdown_images/dextop.jpg "resume page paragraph")
+![resume page paragraph](/images/markdown_images/dextop.jpg)
 
 ## Building
 
@@ -192,6 +192,16 @@ I wrote my CSS mobile-first. I have few media queries to oriented different sect
 My images are very low size for optimization reason. I All my images are in jpg formet as the . Their file sizes were small, just a few 10s of KB.
 
 The icons on my About page are the logos of the various services I have accounts with. I use [Font Awesome](http://fontawesome.io/), as they have good catalog of logos. I sized the logos to 200% size, using `font-size: 200%` in CSS.
+
+## Performance
+
+### Network
+
+![Network](/images/markdown_images/network.jpg)
+
+### Timeline
+
+![Timeline](/images/markdown_images/timeline.jpg)
 
 
 ## Assets Links
