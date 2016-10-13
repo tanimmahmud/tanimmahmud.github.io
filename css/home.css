@@ -32,6 +32,9 @@
   display: none;
 }
 
+.latest-work h1{
+  display: none;
+}
 
 @media screen and (min-width: 425px) {
   #profile_photo {
@@ -110,21 +113,14 @@
     color: #0077b5;
   }
 
-  #latest-work {
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    align-items: center;
-  }
 
-  #latest-work h1 {
+  .latest-work  h1{
+    display: block;
     font-size: 1.2em;
     margin-top: 20px;
     padding: 20px;
     color: #888;
+    text-align: center;
   }
 
   .latest-projects {

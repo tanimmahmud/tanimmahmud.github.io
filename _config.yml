@@ -1,10 +1,9 @@
 
 title: Tanim Mahmud
 email: tanimmahmud08@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  This is a portfolio site of Tanim Mahmud
+description: This is a portfolio site of Tanim Mahmud
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
+url: "https://tanimmahmud.github.io" # the base hostname & protocol for your site
 github_username:  tanimmahmud
 
 # Build settings

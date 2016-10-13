@@ -1,12 +1,12 @@
 var projects = [
   {
-    alt: "website",
-    image: "/images/portfolio/selfiebd.jpg",
-    url_title: "Selfie BD",
-    url: "selfiebd.com",
-    type: "Website Design",
-    type_link: "https://github.com/tanimmahmud/selfie",
-    tools: "HTML, CSS, Bootstrap"
+    alt: " portfolio website",
+    image: "/images/portfolio/portfolio.jpg",
+    url_title: "Portfolio",
+    url: "https://tanimmahmud.github.io/",
+    type: "Website Development",
+    type_link: "https://github.com/tanimmahmud/tanimmahmud.github.io",
+    tools: "HTML, CSS, JavaScript"
   },
   {
     alt: "website",
@@ -18,13 +18,13 @@ var projects = [
     tools: "HTML, CSS, Bootstrap"
   },
   {
-    alt: "website",
-    image: "/images/portfolio/selfiebd.jpg",
-    url_title: "Selfie BD",
-    url: "selfiebd.com",
-    type: "Website Design",
-    type_link: "https://github.com/tanimmahmud/selfie",
-    tools: "HTML, CSS, Bootstrap"
+    alt: "Terminal App",
+    image: "/images/portfolio/banking_app.jpg",
+    url_title: "Banking App",
+    url: "https://github.com/tanimmahmud/Banking-App",
+    type: "Application",
+    type_link: "https://github.com/tanimmahmud/Banking-App",
+    tools: "Ruby"
   }
 ];
 
