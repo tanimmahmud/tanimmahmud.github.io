@@ -1,13 +1,27 @@
 ---
 layout: default
 ---
-
-<div class="introduction">
-  {% include intro.html %}
-</div>
-<div id="social">
- {% include social.html %}
-</div>
-<div id="latest-work">
-  {% include latest-work.html %}
-</div>
+<!-- home page -->
+  <link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+<!--Default Navigation -->
+<header>
+  {% include nav.html %}
+</header>
+<main>
+  <!-- page content -->
+  <div class="introduction">
+    {% include intro.html %}
+  </div>
+  <div id="social">
+   {% include social.html %}
+  </div>
+  <div id="latest-work">
+    {% include latest-work.html %}
+  </div>
+</main>
+<!-- Default Footer -->
+<footer>
+  {% include footer.html %}
+</footer>

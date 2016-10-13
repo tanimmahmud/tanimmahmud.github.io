@@ -1,11 +1,22 @@
 ---
 layout: default
 ---
-
-<!-- Contact page -->
-<div id="contact">
-				{% include contact-form.html %}
-				{% include contact-social.html %}
-</div>
-
-<!-- End contact page -->
+<!-- contacts page -->
+<link rel="stylesheet" href="/css/contacts.css">
+</head>
+<body>
+<!--Default Navigation -->
+<header>
+  {% include nav.html %}
+</header>
+<main>
+  <!-- page content -->
+	<div id="contact">
+		{% include contact-form.html %}
+		{% include contact-social.html %}
+	</div>
+</main>
+<!-- Default Footer -->
+<footer>
+  {% include footer.html %}
+</footer>

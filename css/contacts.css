@@ -64,7 +64,7 @@ input[type=button], input[type=submit], input[type=reset] {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    min-width: 50%;
+    max-width: 60%;
     margin-right: 10px;
   }
 
