@@ -26,23 +26,75 @@ Please submit links to your deliverables to your teacher by email, or on Slack.
 
 ## Deliverables
 
-### Design Documentation
+## Design Documentation
 
-1. Demonstrate your understanding of your site's audience.
+### Site's audience.
 
   My targeted visitors will be my prospective employers and fellow developers.
 
-1. Demonstrate the design decisions made
+### Design decisions
 
   The website has 5 pages - home, resume, portfolio, blog and contact page. Home page has all basic information about me and all links to find my details . For busy employers home page will be enough to learn about me. I created other pages to show more details about my projects and resume. I also made a contact page to make it easy to contact me. In my resume page I also have download resume option so that prospective employers can download my resume for internal use.
   Navigation tabs are available in the footer so that visitors can easily navigate through the pages. I made all the links available using keyboard for make it more accessible. I chose black and white theme to fit with my personality. I used color combinations considering color blind people.  
 
-2. Demonstrate that you considered usability heuristics
+### Usability heuristics
+
   * I only provided relevant informations.
-  * Informed visitors where they are highlighting navigation menu.
-3. Any wireframes
-3. Style guide
-4. Personal Logo
+  * Informed visitors which page they are visiting by highlighting navigation menu.
+  * I was very careful about my writing to make it understandable for all visitors.
+  * All of the pages followed same design and color combinations. Navigations are in the same place. Headers are always in same fonts and text are same fronts and size.
+  * I made navigations and social links in the footer so that visitors do not have to scroll page to find useful informations.
+  * I used comparatively bigger font size and design to make it more usable and less stress for low vision people.
+
+### Wireframes
+
+#### Hand Scratch
+
+  I scratch my initial design in a paper.
+
+  ![alt text](/images/markdown_images/wireframe.jpg "hand scratch image")  
+
+### Style guide
+
+#### Personal Logo
+
+The websites logo should be used at all times left corner of the site.
+
+![alt text](/images/markdown_images/logo.jpg "website logo")
+
+##### Spacing and Sizes
+
+The logo should always be surrounded by a minimum area of space. The area of isolation ensures that headlines, text or other visual elements do not encroach on the logo.
+
+##### Minimum Size
+There are no predetermined sizes for the  logo. Scale and proportion should be determined by the available space, aesthetics, function and visibility.
+
+There is no preset maximum size for the  logo. However, minimum sizes font size of the logo is 24 px with 10 px padding.
+
+#### Colors
+
+##### Primary Colors
+
+The Primary Palette should be used in all occasions specially in navigation and text color.
+
+![alt text](/images/markdown_images/primary_color.jpg "Primary colors")
+
+##### Secondary Colors
+
+###### Buttons
+
+Colors for different type of buttons used in the website
+
+![alt text](/images/markdown_images/buttons.jpg "button colors")
+
+###### Social Icon
+
+Colors used to highlight different social icon used in the site
+
+![alt text](/images/markdown_images/social_colors.jpg "social icon colors")
+
+
+
 
 ### Compliant website using HTML and CSS
 
