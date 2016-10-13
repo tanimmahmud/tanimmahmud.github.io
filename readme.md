@@ -93,8 +93,52 @@ Colors used to highlight different social icon used in the site
 
 ![alt text](/images/markdown_images/social_colors.jpg "social icon colors")
 
+##### Color Usage
 
+ Portfolio site has 3 main colors.
 
+1. Cod Gray was used as a background color of navigation bar.
+2. Wild Sand was used as a background color of footer.
+3. White was used as a general body color.
+
+#### Typography
+
+Exo should be used for all header and sub header text, where Open Sans should be used for all other copy (body, quotes etc). To ensure a consistent look, make sure fonts are used in a consistent manner and the weights of the font have been considered, using heavier weights for headers and the highlight key messages.
+
+##### Web Fonts
+
+###### Exo
+
+![alt text](/images/markdown_images/exo.jpg "exo font")
+
+###### Open Sans
+
+![alt text](/images/markdown_images/open_sans.jpg "open sans font")
+
+##### Web Styles
+
+###### Heading Styles
+
+![alt text](/images/markdown_images/home_page_heading.jpg "home page heading")
+
+![alt text](/images/markdown_images/resume_page_heading.jpg "resume page heading")
+
+###### Paragraph Styles
+
+![alt text](/images/markdown_images/home_page_paragraph.jpg "home page paragraph")
+
+![alt text](/images/markdown_images/resume_page_paragraph.jpg "resume page paragraph")
+
+##### Icons
+
+![alt text](/images/markdown_images/social_icon_footer.jpg "resume page paragraph")
+
+- LinkedIn
+- GitHub
+- Twitter
+- CodePen
+
+##### Screenshots
 
 ### Compliant website using HTML and CSS
 
