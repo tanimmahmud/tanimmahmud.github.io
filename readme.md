@@ -23,18 +23,20 @@
 ## Assets
 
 ### HTML
-- [Home HTML](/index.html)
+- [Navigation HTML](_includes/nav.html)
+- [Footer HTML](_includes/footer.html)
+- [Home HTML](_includes/intro.html)
 - [Portfolio HTML](/portfolio/index.html)
-- [Resume HTML](/resume/index.html)
-- [Contacts HTML](/contacts/index.html)
+- [Resume HTML](_includes/resume.html)
+- [Contacts HTML](_includes/contact-form.html)
 
 ### CSS
+- [Navigation Bar CSS](/css/navigation.css)
+- [Footer CSS](/css/footer.css)
 - [Home CSS](/css/home.css)
 - [Portfolio CSS](/css/portfolio.css)
 - [Resume CSS](/css/resume.css)
 - [Contacts CSS](/css/contacts.css)
-- [Navigation Bar CSS](/css/navigation.css)
-- [Footer CSS](/css/footer.css)
 
 ## Script
 - [Main JS](/script/main.js)
