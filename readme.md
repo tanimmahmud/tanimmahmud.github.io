@@ -2,7 +2,7 @@
 
 ## Aim
 
-My aim was to develop a clean accessible website for prospective employers and fellow developers. I used bigger font size and black and white color combinations for accessible reasons. I tried to create a simple website with no fancy animation or parallax because it suits me better. I decided to go with different html and css file for each page because it is easy to debug and as I used Jekyll, it helped me organize my files and folders.
+My aim was to develop a clean accessible website for prospective employers and fellow developers. I used bigger font size and black and white color combinations for accessible reasons. I tried to create a simple website with no fancy animation or parallax because it suits me better. I decided to go with different html and css file for each page because it is easy to debug and as I used Jekyll, it helped me to organize my files and folders.
 
 ### Home
 
