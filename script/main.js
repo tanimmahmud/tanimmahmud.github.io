@@ -87,8 +87,8 @@ for (var i = 0 ; i < latest_projects.length ; i++) {
   html2 += '<img class ="portfolio_figure" width="250px" height="auto" src =' + latest_projects[i].image + ' alt = ' + latest_projects[i].alt + '>';
   html2 += '</img>';
   html2 += '<figcaption>';
-  html2 += '<a target="_blank" href=' +latest_projects[i].url+ ' ><p><strong>' + latest_projects[i].url_title + '</strong> </p></a>';
-  html2 += '<a target="_blank" href=' +latest_projects[i].type_link + ' ><p><em>' + latest_projects[i].type + '</em><span><i class="fa fa-angle-double-right pull-right" aria-hidden="true"></i></span></p></a>';
+  html2 += '<a target="_blank" href=' +latest_projects[i].url+ ' ><p><strong>' + latest_projects[i].url_title + '</strong> <span><i class="fa fa-external-link-square" aria-hidden="true"></i></span></p></a>';
+  html2 += '<a target="_blank" href=' +latest_projects[i].type_link + ' ><p><em>' + latest_projects[i].type + '</em> <span><i class="fa fa-angle-double-right pull-right" aria-hidden="true"></i></span><span><i class="fa fa-github" aria-hidden="true"></i></span></p></a>';
   html2 += '<p>' +latest_projects[i].tools + "</p>";
   html2 += '</figure>';
 };
