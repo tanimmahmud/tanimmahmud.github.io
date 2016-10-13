@@ -213,7 +213,7 @@ load time result using google chrome developer tools.
 - [Footer HTML](_includes/footer.html)
 - [Home HTML](_includes/intro.html)
 - [Portfolio HTML](/portfolio/index.html)
-- [Resume HTML](_includes/resume.html)
+- [Resume HTML](/resume/index.html)
 - [Contacts HTML](_includes/contact-form.html)
 
 ### CSS
