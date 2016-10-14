@@ -53,8 +53,8 @@ var latest_projects = [
   {
     alt: " portfolio website",
     image: "/images/portfolio/portfolio.jpg",
-    url_title: "Portfolio",
-    url: "https://tanimmahmud.github.io/",
+    url_title: "Portfolio Process",
+    url: "https://github.com/tanimmahmud/tanimmahmud.github.io/blob/master/readme.md",
     type: "Website Development",
     type_link: "https://github.com/tanimmahmud/tanimmahmud.github.io",
     tools: "HTML, CSS, JavaScript"
