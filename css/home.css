@@ -133,6 +133,7 @@
     max-width: 1024px;
   }
 
+
   .portfolio_figure,
   .figure_body {
     background: url(../images/portfolio/selfiebd.jpg);
@@ -141,6 +142,25 @@
     min-width: 100%;
     min-height: 16vw;
     border-radius: 10px;
+  }
+
+  .badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1;
+    vertical-align: baseline;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #337ab7;
+    border-radius: 10px;
+  }
+
+  figcaption h1 {
+    color: #000;
   }
 
   .figure_body h1 {

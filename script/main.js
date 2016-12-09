@@ -57,7 +57,7 @@ var latest_projects = [
     url: "https://github.com/tanimmahmud/tanimmahmud.github.io/blob/master/readme.md",
     type: "Website Development",
     type_link: "https://github.com/tanimmahmud/tanimmahmud.github.io",
-    tools: "HTML, CSS, JavaScript"
+    tools: ["HTML", "CSS", "JavaScript"]
   },
   {
     alt: "JrDevJobs",
@@ -66,7 +66,7 @@ var latest_projects = [
     url: "http://jrdevjobs.heroku.com/",
     type: "Application",
     type_link: "https://github.com/tanimmahmud/JrDevJobs",
-    tools: "HTML, CSS, Ruby on Rail, JavaScript, Bootstrap, jQuery"
+    tools: ["HTML", "CSS", "Ruby on Rail", "JavaScript", "Bootstrap", "jQuery"]
   },
   {
     alt: "Terminal App",
@@ -75,7 +75,7 @@ var latest_projects = [
     url: "https://github.com/tanimmahmud/Banking-App",
     type: "Application",
     type_link: "https://github.com/tanimmahmud/Banking-App",
-    tools: "Ruby"
+    tools: ["Ruby"]
   }
 ];
 
@@ -83,13 +83,18 @@ var latest_projects = [
 var html2 = document.getElementById('latest-work').innerHTML;
 
 for (var i = 0 ; i < latest_projects.length ; i++) {
-  html2 += '<figure>';
-  html2 += '<img class ="portfolio_figure" width="250px" height="auto" src =' + latest_projects[i].image + ' alt = ' + latest_projects[i].alt + '>';
+  html2 += '<figure class="imghvr-push-up">';
+  html2 += '<img class ="portfolio_figure" width="200px" height="auto" src =' + latest_projects[i].image + ' alt = ' + latest_projects[i].alt + '>';
   html2 += '</img>';
   html2 += '<figcaption>';
-  html2 += '<a target="_blank" href=' +latest_projects[i].url+ ' ><p><strong>' + latest_projects[i].url_title + '</strong> <span><i class="fa fa-external-link-square" aria-hidden="true"></i></span></p></a>';
-  html2 += '<a target="_blank" href=' +latest_projects[i].type_link + ' ><p><em>' + latest_projects[i].type + '</em> <span><i class="fa fa-angle-double-right pull-right" aria-hidden="true"></i></span><span><i class="fa fa-github" aria-hidden="true"></i></span></p></a>';
-  html2 += '<p>' +latest_projects[i].tools + "</p>";
+  html2 += '<a target="_blank" href=' +latest_projects[i].url+ ' ><p style="color:#337ab7;"><span><i class="fa fa-globe" aria-hidden="true"></i></span>  <strong>' + latest_projects[i].url_title + '</strong> </p></a>';
+  html2 += '<a target="_blank" href=' +latest_projects[i].type_link + ' ><p><span><i class="fa fa-github" aria-hidden="true"></i></span>  <em>' + latest_projects[i].type + '</em> </p></a>';
+  var html3 = '';
+  for (var j = 0; j < latest_projects[i].tools.length ; j++){
+    html3 += ' <span class="badge">'+latest_projects[i].tools[j]+'</span> ';
+  }
+  html2 += '<hr><p>' +html3 + "</p>";
+  html2 += '</figcaption>';
   html2 += '</figure>';
 };
 

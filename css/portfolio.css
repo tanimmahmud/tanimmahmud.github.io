@@ -16,6 +16,22 @@
   color: #888;
 }
 
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #337ab7;
+  border-radius: 10px;
+}
+
+
 @media screen and (min-width: 600px) {
   #project {
     -webkit-flex-direction: row;
