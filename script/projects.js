@@ -9,15 +9,6 @@ var projects = [
     tools: "HTML, CSS, JavaScript"
   },
   {
-    alt: "website",
-    image: "/images/portfolio/selfiebd.jpg",
-    url_title: "Selfie BD",
-    url: "selfiebd.com",
-    type: "Website Design",
-    type_link: "https://github.com/tanimmahmud/selfie",
-    tools: "HTML, CSS, Bootstrap"
-  },
-  {
     alt: "Terminal App",
     image: "/images/portfolio/banking_app.jpg",
     url_title: "Banking App",
@@ -25,6 +16,15 @@ var projects = [
     type: "Application",
     type_link: "https://github.com/tanimmahmud/Banking-App",
     tools: "Ruby"
+  },
+  {
+    alt: "JrDevJobs",
+    image: "/images/portfolio/jrdevjobs.jpg",
+    url_title: "JrDevJobs",
+    url: "http://jrdevjobs.heroku.com/",
+    type: "Application",
+    type_link: "https://github.com/tanimmahmud/JrDevJobs",
+    tools: "HTML, CSS, Ruby on Rail, JavaScript, Bootstrap, jQuery"
   }
 ];
 
