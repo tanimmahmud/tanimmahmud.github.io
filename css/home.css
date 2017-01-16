@@ -10,6 +10,7 @@
 .introduction_body p,
 .introduction_body h1 {
   text-align: left;
+  line-height: 1.5em;
 }
 
 #profile_photo {
