@@ -25,13 +25,22 @@ var projects = [
     type: "Application",
     type_link: "https://github.com/tanimmahmud/Banking-App",
     tools: ["Ruby"]
+  },
+  {
+    alt: "MacSecond",
+    image: "/images/portfolio/banking_app.jpg",
+    url_title: "MacSecond",
+    url: "https://github.com/tanimmahmud/Banking-App",
+    type: "Web Application",
+    type_link: "https://github.com/tanimmahmud/Banking-App",
+    tools: ["Ruby"]
   }
 ];
 
 var html = document.getElementById('project').innerHTML;
 
 for (var i = 0 ; i < projects.length ; i++) {
-  html += '<figure class="imghvr-push-up">';
+  html += '<figure class="imghvr-push-up col-lg-6">';
   html += '<img class ="portfolio_figure" width="250px" height="auto" src =' + projects[i].image + ' alt = ' + projects[i].alt + '>';
   html += '</img>';
   html += '<figcaption>';
