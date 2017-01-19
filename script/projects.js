@@ -25,15 +25,6 @@ var projects = [
     type: "Application",
     type_link: "https://github.com/tanimmahmud/Banking-App",
     tools: ["Ruby"]
-  },
-  {
-    alt: "MacSecond",
-    image: "/images/portfolio/banking_app.jpg",
-    url_title: "MacSecond",
-    url: "https://github.com/tanimmahmud/Banking-App",
-    type: "Web Application",
-    type_link: "https://github.com/tanimmahmud/Banking-App",
-    tools: ["Ruby"]
   }
 ];
 
