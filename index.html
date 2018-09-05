@@ -1,32 +1,187 @@
----
-layout: default
----
-<!-- home page -->
-  <link rel="stylesheet" href="/css/home.css">
-  <link rel="stylesheet" href="/css/portfolio.css">
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+	<title>Tanim Mahmud</title>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="description" content="Resume of Tanim Mahmud">
+	<meta name="keywords" content="tanim, mahmud, web developer, front-end, back-end, full-stack engineer">
+	<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/plugins.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.4.1/collection/icon/icon.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<!--Default Navigation -->
-<header>
-  {% include nav.html %}
-</header>
-<main>
-  <!-- page content -->
-  <div class="introduction">
-    {% include intro.html %}
-  </div>
-  <div id="social">
-   {% include social.html %}
-  </div>
-  <div class="latest-work">
-    <h1> Some of my Latest Work </h1>
-    <div id="latest-work">
-
-
+    <div class="preloader">
+        <div class="preloader-circle"></div>
     </div>
-  </div>
-</main>
-<!-- Default Footer -->
-<footer>
-  {% include footer.html %}
-</footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 huge-side left-side">
+                <div class="huge-content">
+                    <div class="crt-card-avatar">
+                        <img class="avatar avatar-195" src="images/avatar/avatar-195x195.png" srcset="images/avatar/tanim.png 2x" width="195" height="195" alt="">
+                    </div>
+                    <h1>Tanim Mahmud</h1>
+                    <h2>Web Developer</h2>
+                    <a target="_blank" href="images/tanim_mahmud_resume.docx" class="btn btn-download">Download Resume</a>
+
+                    <ul class="social-icons">
+                        <li>
+                            <a href="https://github.com/tanimmahmud" target="_blank" class="social-icon">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/tanimmahmud/" target="_blank" class="social-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <p style="color: black; font-size: 1.5rem;"><i class="fa fa-code"></i> <a target="_blank"  href="https://tanimmahmud.github.io/posts/"> Tanim's Blog</a></p> 
+                </div>
+            </div>
+            <div class="col-sm-8 huge-side right-side">
+                <section class="content about">
+                    <div class="block-content">
+                        <h3 class="title">About Me</h3>
+                        <h3 class="subtitle">I'm a <b>Backend & Frontend Developer</b> from Melbourne, Australia. I aim to make a difference through my problem solving skills.</h3>
+                        <p>I am an Engineer with over 2 years of experience in both front-end and back-end development of applications. I am a personable, communicative programmer who loves to learn new technology. I am a former Civil Engineer and a passionate developer with an interest in SPA development. </p>
+                        <div class="info-list row">
+                            <p class="col-sm-6"><strong>Name: </strong> Tanim Mahmud</p>
+                            <p class="col-sm-6"><strong>Email: </strong> tanimmahmud08@gmail.com</p>
+                            <p class="col-sm-6"><strong>GitHub: </strong><a href="https://github.com/tanimmahmud" target="_blank">https://github.com/tanimmahmud</a></p>
+                            <p class="col-sm-6"><strong>Technical Blog: </strong> <a href="https://tanimmahmud.github.io/posts/" target="_blank">https://tanimmahmud.github.io/posts/</a></p>
+                            <p class="col-sm-6"><strong>Phone: </strong> +61430808098</p>
+                            <p class="col-sm-12"><strong>Location: </strong> Melbourne, Australia</p>
+                            
+                        </div>
+                    </div>
+                    <div class="block-content">
+                        <h3 class="title">Technology Skills</h3>
+                        <div>
+                            ========================================================================= 
+JAVASCRIPT | NODEJS | EXPRESS.JS | REACT.JS | REDUX | GRAPHQL | RELAY| JQUERY | WEBPACK | MONGODB |HTML5 | CSS | SASS | GIT | HEROKU | RUBY ON RAILS | MOCHA | CHAI | JEST | RSPEC
+=========================================================================
+
+                        </div>
+                    </div>
+                    <div class="block-content">
+                        <h3 class="title">Work Experience</h3>
+                        <div class="timeline experience">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="exp-holder">
+                                        <div class="exp">
+                                            <div class="hgroup">
+                                                <h4><span>Full Stack Developer</span> / Victorian Government School</h4>
+                                                <h5 class="badge">Feb 2017 - <span class="current">Present</span></h5>
+                                            </div>
+                                            <p>I have been working in two Victorian schools where I am primarily involved in teaching students and working alongside teachers to challenge and foster innovation linked to the STEM related curriculum. One example of a project I have completed includes the successful build of a web app to manage teacher’s resource, timetable and planning.
+                                            </p>
+                                            <p>I oversee many interesting challenges of the application including different user roles (teacher/student/admin), asset management, search engine integration (Elasticsearch), image upload and storage, and deployment and activity tracking using Git. </p>
+                                        </div>
+                                        <div class="exp">
+                                            <div class="hgroup">
+                                                <h4><span>Software Developer (volunteer)</span> / Code the Future</h4>
+                                                <h5 class="badge">Jan 2017 - <span class="current">Present</span></h5>
+                                            </div>
+                                            <p>A not-for-profit, start-up organization which has built a free marketplace to connect developers with educators to help primary and secondary students learn how to code. 
+                                            </p>
+                                            <p>I oversee many interesting challenges of the application including different user roles (developer/educator), geolocation and google maps integration, search engine integration (Elasticsearch), image upload and storage, and deployment and activity tracking using Git.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-content">
+                        <h3 class="title">Education</h3>
+                        <div class="timeline education">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="exp-holder">
+                                        <div class="exp">
+                                            <div class="hgroup">
+                                                <h4>Diploma of Software Development/
+                                                    <span> Coder Factory Academy (Melbourne)</span></h4>
+                                                <h5></h5>
+                                            </div>
+                                            <p>Graduated end of 2016 
+                                            </p>
+                                        </div>
+                                        <div class="exp">
+                                            <div class="hgroup">
+                                                <h4>Bachelor of Civil and Infrastructure Engineering /
+                                                    <span>. RMIT University (Melbourne)</span></h4>
+                                                <h5></h5>
+                                            </div>
+                                            <p>Graduated end of 2013 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4 huge-side left-side hidden-xs"></div>
+                
+            <div class="col-sm-8 col-sm-offset-4 huge-side right-side">
+                <div class="content-blocks contact">
+                    <section class="content">
+                        <div class="block-content">
+                            <h3 class="title">Get in touch</h3>
+                            <div class="row">
+                                <div class="col-md-5 offset-md-1">
+                                    <div class="contact-content">
+                                        <div class="contact-icon">
+                                            <i class="fa fa-mobile"></i>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h5>Mobile</h5>
+                                            <p> <a href="tel:+61430808098">+61430808098</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="contact-content">
+                                        <div class="contact-icon">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h5>Email</h5>
+                                            <p>tanimmahmud08@gmail.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src='js/jquery.min.js'></script>
+	<script src='js/react.min.js'></script>
+	<script src='js/react-dom.js'></script>
+	<script src='js/react-motion.js'></script>
+    <script src='js/isotope.pkgd.js'></script>
+    <script src="js/header.js"></script>
+    <script src='js/angular.min.js'></script>
+    <script src='js/angular-sanitize.min.js'></script>
+    <script src='js/parallax.min.js'></script>
+    <script src='js/granim.min.js'></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.4.1/collection/icon/icon.js"></script>
+</body>
+</html>
